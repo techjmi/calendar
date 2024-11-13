@@ -1,6 +1,3 @@
-Here’s a `README.md` for your calendar project that includes the features you mentioned, such as the use of React Calendar, CRUD operations, MongoDB, environment variables, and separate deployment for the frontend and backend:
-
----
 
 # Calendar App
 
@@ -25,7 +22,7 @@ A fully functional calendar application built with **React** for the frontend an
 - **Frontend**: React, React Calendar, Tailwind CSS
 - **Backend**: Node.js, Express, MongoDB
 - **Database**: MongoDB
-- **Authentication**: No authentication implemented (you can add it if needed)
+- **Authentication**: No authentication implemented
 - **Environment Variables**: dotenv for managing environment settings
 
 ## Installation
