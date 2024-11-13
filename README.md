@@ -45,14 +45,14 @@ A fully functional calendar application built with **React** for the frontend an
 
 3. Start the React development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ### Backend
 
 1. Clone the backend repository:
    ```bash
-   git clone https://github.com/techjmi/calendar-backend
+   git clone https://github.com/techjmi/calendar_backend
    ```
 
 2. Install the required dependencies:
@@ -100,7 +100,7 @@ POST /events
 
 #### Update an Event
 ```bash
-PUT /events/:id
+PUT /edit/:id
 {
   "title": "Updated Meeting",
   "description": "Updated team meeting",
@@ -110,7 +110,7 @@ PUT /events/:id
 
 #### Delete an Event
 ```bash
-DELETE /events/:id
+DELETE /delete/:id
 ```
 
 ## Environment Variables
