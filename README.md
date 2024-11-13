@@ -34,7 +34,7 @@ A fully functional calendar application built with **React** for the frontend an
 
 1. Clone the frontend repository:
    ```bash
-   git clone https://github.com/techjmi/calendar-frontend
+   git clone https://github.com/techjmi/calendar.git
    ```
 
 2. Install the required dependencies:
@@ -77,9 +77,9 @@ A fully functional calendar application built with **React** for the frontend an
 ### Events
 
 - **GET /events**: Fetch all events
-- **POST /events**: Create a new event
-- **PUT /events/:id**: Update an existing event
-- **DELETE /events/:id**: Delete an event
+- **POST /create**: Create a new event
+- **PUT /edit/:id**: Update an existing event
+- **DELETE /delete/:id**: Delete an event
 
 ### Example
 
